@@ -31,7 +31,7 @@ The Results output should look like this:
 ![](image_files/ResultsExample.png)   
 Save the results as "Results.csv" and upload into the same directory where this file is. It will be used in the Python notebook below.  
 
-Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  
+Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  #Don't know why it isn't showing up but it's there
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
@@ -39,4 +39,4 @@ A4) 2425 (with watershedding)
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
-Open the [SizeAnalysis.ipynb](SizeAnalysis.ipynb) file and follow instructions in that file (you will be plotting a histogram of the sizes of the segmented objects and describing the output).  
+Open the [SizeAnalysis.ipynb](SizeAnalysis.ipynb) file and follow instructions in that file (you will be plotting a histogram of the sizes of the segmented objects and describing the output).  #I reuploaded a new ipynb file with the same "SizeAnalysis.ipynb" name that has everything in it. For some reason, I can't edit the ipynb files in Github nor can I download them.
