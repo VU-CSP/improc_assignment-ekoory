@@ -9,13 +9,13 @@ You can [download FIJI here](https://fiji.sc)
 #### *Task 1:*
 Answer the following questions about the [Phase contrast](image_files/PhaseContrast.tif) and [Differential interference contrast](image_files/DifferentialInterference.tif) images:
 Q1) What is the maximum intensity value in the [Differential interference contrast](image_files/DifferentialInterference.tif) file? 
-A1) Put your answer here.  
+A1) 255
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
-A2) Put your answer here in the form of (X, Y, BitDepth).  
+A2) (314, 226, 8-bit)
 
 Q3) Which image has greater dynamic range of pixel intensities? Phase or DiffInt?  
-A3) Put your answer here.  
+A3) Phase - Min 6 Max 252 (DiffInt - Min 20 Max 255) so phase has a greater range
 
 #### *Task 2:*
 Open the file [Fluorescence_composite.tif](image_files/Fluorescence_composite.tif) and convert all the signal in the red channel to the blue channel, export the file as a JPG and upload it to this repository in the [image_files](image_files) directory with the name "Composite.jpg".  
@@ -31,12 +31,12 @@ The Results output should look like this:
 ![](image_files/ResultsExample.png)   
 Save the results as "Results.csv" and upload into the same directory where this file is. It will be used in the Python notebook below.  
 
-Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  
+Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  #Don't know why it isn't showing up but it's there
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
-A4) Put your answer here.  
+A4) 2425 (with watershedding)
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
-Open the [SizeAnalysis.ipynb](SizeAnalysis.ipynb) file and follow instructions in that file (you will be plotting a histogram of the sizes of the segmented objects and describing the output).  
+Open the [SizeAnalysis.ipynb](SizeAnalysis.ipynb) file and follow instructions in that file (you will be plotting a histogram of the sizes of the segmented objects and describing the output).  #I reuploaded a new ipynb file with the same "SizeAnalysis.ipynb" name that has everything in it. For some reason, I can't edit the ipynb files in Github nor can I download them.
